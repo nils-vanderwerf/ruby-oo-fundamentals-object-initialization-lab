@@ -1,13 +1,13 @@
 class Person
-    def initialize (name)
+    def initialize(name)
         @name = name
     end
 
-    def print_name
+    def name
         @name
     end
 end
 
-warren = Person.new("Warren")
+def john = Person.new("John")
 
-puts warren.print_name
+puts john.name
